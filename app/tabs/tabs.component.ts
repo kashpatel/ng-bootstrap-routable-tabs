@@ -17,7 +17,7 @@ export class TabsComponent {
     });
   }
 
-  tabOptions = [
+  tabs = [
     { name: 'Demo 1', url: '/tabs/(tabs:demo1)' }, 
     { name: 'Demo 2',   url: '/tabs/(tabs:demo2)' }, 
     { name: 'Demo 3',   url: '/tabs/(tabs:demo3)' }
