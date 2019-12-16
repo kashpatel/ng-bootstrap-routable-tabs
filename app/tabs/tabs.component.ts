@@ -7,7 +7,7 @@ import { NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./tabs.component.css']
 })
 export class TabsComponent {
-  private activeTabUrl: string;
+  private activeTabUrl: string = "/tabs/(tabs:demo1)";
 
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
